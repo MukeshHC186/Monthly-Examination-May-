@@ -7,14 +7,16 @@
   .navbar {
     background-color: #333;
     display: flex;
-    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    justify-content: space-around;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 2;
   }
   .three_line {
-    width: 3%;
+    width: 20%;
     margin: 0 0 0 20px;
     font-weight: bold;
     font-size: x-large;
@@ -32,7 +34,7 @@
     margin: auto;
   }
   .nav_links {
-    width: 40%;
+    width: 60%;
   }
   .nav_links ul {
     display: flex;
